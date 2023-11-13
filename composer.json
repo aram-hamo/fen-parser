@@ -1,0 +1,17 @@
+{
+    "name": "aram-hamo/fen",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "AramHamo\\Fen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aram Hamo",
+            "email": "contact@aramhamo.me"
+        }
+    ],
+    "require": {}
+}

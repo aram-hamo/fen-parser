@@ -1,6 +1,17 @@
-<?php
+<?php declare(strict_types=1);
+namespace AramHamo\Fen;
 
 Class Fen{
+  public static $SampleFenArray = [
+    'r','n','b','q','k','b','n','r',
+    'p','p','p','p','p','p','p','p',
+    '','','','','','','','',
+    '','','','','','','','',
+    '','','','','','','','',
+    '','','','','','','','',
+    'P','P','P','P','P','P','P','P',
+    'R','N','B','Q','K','B','N','R'
+  ];
   public static function Generate(Array $board):String{
     $empty_squares = 0;
     $line_counter = 0;
@@ -35,16 +46,3 @@ Class Fen{
     return $fen;
   }
 }
-
-$board = [
-  'r','n','b','q','k','b','n','r',
-  'p','p','p','p','p','p','p','p',
-  '','','','','','','','',
-  '','','','','','','','',
-  '','','','','','','','',
-  '','','','','','','','',
-  'P','P','P','P','P','P','P','P',
-  'R','N','B','Q','K','B','N','R'
-];
-
-echo Fen::Generate($board);
