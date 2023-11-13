@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-namespace AramHamo\Fen;
+namespace AramHamo;
 
 Class Fen{
   public static $SampleFenArray = [
