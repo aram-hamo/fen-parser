@@ -3,6 +3,14 @@
 composer require aram-hamo/fen
 ```
 
+## Usage
+```
+<?php
+use AramHamo\Fen;
+
+echo Fen::Generate(Fen::$SampleFenArray);
+```
+
 ## Contact
 Aram Hamo - [contact+fenparser@aramhamo.me](mailto:contact+fenparser@aramhamo.me)
 
